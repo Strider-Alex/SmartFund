@@ -1,7 +1,7 @@
 import scrapy
 
-class FundsSpider(scrapy.Spider):
-    name = "funds"
+class CNIndexSpider(scrapy.Spider):
+    name = "CNIndex"
 
     def start_requests(self):
         urls = [
